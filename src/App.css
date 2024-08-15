@@ -1,0 +1,22 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: lime;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 100px;
+}
+
+.handler {
+  width: 30px;
+  background: white;
+}
